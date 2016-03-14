@@ -1,0 +1,250 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+	background-image: url(../images/vector_houston.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#wrapper {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-width: 740px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#hero {
+	position: relative;
+	clear: left;
+}
+#hero h2 {
+	color: #2E8BBA;
+	text-transform: uppercase;
+}
+#hero article {
+	width: 36%;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	left: 85px;
+	color: white;
+	border-radius: 15px;
+	top: 32px;
+	padding-bottom: 9px;
+	background-color: #EB913F;
+}
+
+
+#hero img {
+	max-width: 100%;
+}
+h1 , h2{
+	color: #3399CC;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 600;
+}
+h1 {
+	font-size: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#main {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+#sidebar {
+	width: 34%;
+	margin-left: 4%;
+	float: left;
+}
+footer {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2%;
+	background-color: #43A6CB;
+	color: white;
+	clear: left;
+}
+footer p {
+	text-align: center;
+
+}
+
+footer div {
+	float: left;
+	padding-right: 0%;
+	margin-left: 80px;
+	padding-left: 16px;
+}
+
+figure {
+	width: 420px;
+}
+figure img {
+	padding: 10px;
+	background-color: white;
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+}
+
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	margin-right: 10px;
+	float: left;
+}
+.floatright {
+	margin-left: 10px;
+	float: right;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #FF944C;
+}
+a:hover, a:active, a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #4D4D4D;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+#mainnav div a:hover, #mainnav a:active, #mainnav a:focus, #mainnav a.thispage {
+	text-decoration: none;
+	background-color: #43A6CB;
+}
+article, aside, figure, footer, header, nav {
+	display: block;
+}
+#whatson {
+	width: 93%;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+#whatson h2 {
+	text-align: center;
+	padding-top: 28px;
+
+
+}
+#where {
+	width: 94%;
+	margin-left: 4%;
+}
+#where h2 {
+	text-align: center;
+}
+#eat img {
+	-webkit-box-shadow: 1px 1px 15px #999999;
+	box-shadow: 1px 1px 15px #999999;
+	padding: 10px;
+	background-color: white;
+}
+.animate-show {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  line-height: 20px;
+  opacity: 1;
+}
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 20px;
+}#rocketsplayer  {
+	float: left;
+	position: relative;
+	width: 40%;
+	padding-right: 23px;
+	left: 20px;
+
+}
+#rocketsplayer
+ h2 {
+	color: #FC170E;
+	text-align: center;
+}
+#houstonWelcome {
+	color: #7EB9D9;
+	position: absolute;
+	left: 28px;
+	top: -18px;
+	background-color: #F1ECEC;
+	padding-left: 10px;
+	padding-bottom: 9px;
+	padding-right: 11px;
+}
+#welcometohouston {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+#join {
+	background-color: #3D779D;
+	color: white;
+	border-radius: 9px;
+}
+#hi {
+	left: 1012px;
+	position: absolute;
+	top: 4px;
+	width: 81%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	clear: none;
+	color: #191717;
+}
+#hi span {
+	color: #000000;
+	left: 7px;
+	bottom: 49px;
+	font-weight: bold;
+}
+#greet {
+	padding-left: 1%;
+}
+#greet label {
+	color: #3399CC;
+}
+body p {
+}
+#form {
+	width: 16%;
+	position: relative;
+	clear: none;
+	float: left;
+}

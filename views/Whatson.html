@@ -1,0 +1,31 @@
+
+<header id="top">
+    <h1>Houston Beat</h1>
+    <nav id="mainnav">
+    <ul>
+      <li><a ng-click="home()" >Home</a></li>
+      <li><a ng-click="sightseeing()" >Sightseeing</a></li>
+      <li><a ng-click="eatingout()">Eating Out</a></li>
+      <li><a ng-click="whatson()" class="thispage">What's On</a></li>
+      <li><a ng-click="wheretostay()">Where To Stay</a></li>
+    </ul>
+  </nav>
+  </header>
+</header>
+<div ng-controller="whatsonCtrl"> 
+<article id="whatson"><h1>Clutch City</h2>
+    <p>The Houston Rockets are an American professional basketball team based in Houston, Texas. The team plays in the Southwest Division of the Western Conference</a> in the <a href="http://www.nba.com/">NBA</a>. The team was established in 1967 and played in San Diego, California for four years as the San Diego Rockets, before moving to Houston in 1971.           
+
+    <figure id="rocktes"><img src="images/rockets1.jpg" width="700" height="400"  alt=""/>
+    </figure>
+    <p>Currently, the rockets are the second best team in the western confrence. They are contenders for the NBA championship and look to accomplish their goal of winning the title. Lead by <a ng-click="showHarden()">James Harden</a> (click for more), the rockets are leading the league in scoring and are also considered one of the top defensive teams due to <a ng-click="showHoward()" >Diwght Howard</a> (click for more).</p>
+</article>
+<article id="rocketsplayer" class="animate-show" ng-hide="show">
+<h2>James Harden</h2>
+<p>James Harden has quickly became of the top stars on the NBA. This recent year he finshed the regualr seaosn as the #1 scorer and runner-up to the MVP award. He has a unique talent of finding ways to get to the rim and score. He is a 2 headed monster as he is a great shooter and even better penetrator. This style of game gets him to the free throw line very often, as he also leads the league in free throw attempts per game.</p>
+</article>
+<article id="rocketsplayer" class="animate-show" ng-hide="showDwight">
+<h2>Dwight Howard</h2>
+<p>Dwight Howard is still the league's best defensive big man. Whenever he is in the paint, opposing teams have to monitor his presense as he can block shots and rebond from just about angle around the rim. With the combination of both Howard and Harden, the Rockets hope to remain serious contenders for many years to come.</p>
+</article>
+</div>
